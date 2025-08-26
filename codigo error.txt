@@ -1,0 +1,4 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+npm init -y
+npm install express mongoose dotenv jsonwebtoken bcryptjs cors morgan
+npm install --save-dev nodemon concurrently # concurrently para ejecutar backend y frontend juntos
